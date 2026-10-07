@@ -1,0 +1,7 @@
+[
+  { "file": "top_customers.sql", "id": "top_customers", "name": "Top Customers",
+    "description": "Customers filtered by region", "dbms": "POSTGRES",
+    "database": "app_db", "category": "reporting" },
+  { "file": "daily_revenue.sql", "id": "daily_revenue", "name": "Daily Revenue",
+    "dbms": "POSTGRES", "database": "app_db", "category": "reporting", "default": true }
+]
