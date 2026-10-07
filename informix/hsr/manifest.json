@@ -7,5 +7,14 @@
   { "file": "demographics_by_zipcode.sql", "id": "demographics_by_zipcode", "name": "Demographics By Zipcode",
     "description": "People filtered by zipcode", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" },
   { "file": "demographics_by_person_id.sql", "id": "demographics_by_person_id", "name": "Demographics By Person Id",
-    "description": "A single person's demographic record, looked up by person_id", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" }
+    "description": "A single person's demographic record, looked up by person_id", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" },
+  { "file": "insert_demographic_record.sql", "id": "insert_demographic_record", "name": "Insert Demographic Record",
+    "description": "Adds a new PersonalDemographicInfo row (demonstrates an approved INSERT statement)",
+    "dbms": "INFORMIX", "database": "hsr", "category": "hsr-write-demo" },
+  { "file": "update_demographic_zipcode.sql", "id": "update_demographic_zipcode", "name": "Update Demographic Zipcode",
+    "description": "Updates a person's zipcode by person_id (demonstrates an approved UPDATE statement)",
+    "dbms": "INFORMIX", "database": "hsr", "category": "hsr-write-demo" },
+  { "file": "delete_demographic_record.sql", "id": "delete_demographic_record", "name": "Delete Demographic Record",
+    "description": "Removes a person's PersonalDemographicInfo row by person_id (demonstrates an approved DELETE statement)",
+    "dbms": "INFORMIX", "database": "hsr", "category": "hsr-write-demo" }
 ]
