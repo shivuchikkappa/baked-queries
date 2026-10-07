@@ -1,0 +1,9 @@
+[
+  { "file": "top_identified_demographics.sql", "id": "top_identified_demographics", "name": "Top Identified Demographics",
+    "description": "Youngest 5 people joined with their identification details (demonstrates Informix FIRST/JOIN syntax passed through unmodified)",
+    "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo", "default": true },
+  { "file": "demographics_by_age.sql", "id": "demographics_by_age", "name": "Demographics By Age",
+    "description": "People filtered by an exact age", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" },
+  { "file": "demographics_by_zipcode.sql", "id": "demographics_by_zipcode", "name": "Demographics By Zipcode",
+    "description": "People filtered by zipcode", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" }
+]
