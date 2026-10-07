@@ -1,4 +1,5 @@
 [
   { "dbms": "POSTGRES", "database": "app_db", "path": "postgres/operations" },
-  { "dbms": "INFORMIX", "database": "hsr", "path": "informix/hsr" }
+  { "dbms": "INFORMIX", "database": "hsr", "path": "informix/hsr" },
+  { "dbms": "INFORMIX", "database": "edp", "path": "informix/edp" }
 ]
