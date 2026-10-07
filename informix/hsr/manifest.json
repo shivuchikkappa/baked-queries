@@ -5,5 +5,7 @@
   { "file": "demographics_by_age.sql", "id": "demographics_by_age", "name": "Demographics By Age",
     "description": "People filtered by an exact age", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" },
   { "file": "demographics_by_zipcode.sql", "id": "demographics_by_zipcode", "name": "Demographics By Zipcode",
-    "description": "People filtered by zipcode", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" }
+    "description": "People filtered by zipcode", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" },
+  { "file": "demographics_by_person_id.sql", "id": "demographics_by_person_id", "name": "Demographics By Person Id",
+    "description": "A single person's demographic record, looked up by person_id", "dbms": "INFORMIX", "database": "hsr", "category": "hsr-demo" }
 ]
