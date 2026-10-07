@@ -1,6 +1,0 @@
-[
-  { "file": "top_customers.sql", "id": "top_customers", "name": "Top Customers",
-    "description": "Customers filtered by region", "category": "reporting" },
-  { "file": "daily_revenue.sql", "id": "daily_revenue", "name": "Daily Revenue",
-    "category": "reporting", "default": true }
-]
